@@ -1,0 +1,38 @@
+.about-cards-section {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 15px;
+	margin: 5vh 15vw;
+
+	text-align: center;
+}
+
+.about-card {
+	background-color: rgba(89, 73, 87, .7);
+	color: rgba(255, 255, 255, .7);
+	font-weight: lighter;
+	border-radius: 5px;
+	padding: 25px 20px;
+}
+
+.about-card:hover {
+	background-color: rgba(89, 73, 87, .9);
+	color: rgba(255, 255, 255, 1);
+}
+
+.about-card-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 21px;
+	padding: 10px 0;
+}
+
+.about-card-description {
+	font-size: 13px;
+	color: rgba(161, 202, 108, 1);
+	padding: 0 0 20px 0;
+}
+
+.social-links:hover {
+	opacity: .5;
+}

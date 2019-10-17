@@ -1,0 +1,31 @@
+.work-cards-section {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 15px;
+	margin: 5vh 15vw;
+
+	text-align: center;
+}
+
+.work-card {
+	background-color: rgba(238, 238, 238, 1);
+	color: rgba(114, 114, 114, 1);
+	font-weight: lighter;
+	border-radius: 5px;
+	padding: 0 0;
+}
+
+.work-card-img {
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+.work-card-title {
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 15px 0;
+}
+
+.work-card-description {
+	font-size: 13px;
+}

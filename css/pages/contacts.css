@@ -1,0 +1,113 @@
+.content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	margin: 0 15vw;
+}
+
+.address-section {
+	display: grid;
+	justify-content: start;
+	color: rgba(255, 255, 255, 1);
+}
+
+.adress-title {
+	font-size: 24px;
+	font-weight: lighter;
+	padding-bottom: 20px;
+}
+
+.country {
+	font-size: 20px;
+	color: rgba(255, 255, 255, .7);
+	padding-bottom: 15px;
+}
+
+.road2 {
+	padding-bottom: 20px;
+}
+
+.contact {
+	color: rgba(255, 255, 255, .7);
+}
+
+.contact2 {
+	color: rgba(255, 255, 255, 1);
+	padding-left: 30px;
+}
+
+.contact3 {
+	color: rgba(255, 255, 255, 1);
+	padding-left: 50px;
+}
+
+.map {
+	height: 230px;
+	width: 230px;
+}
+
+.form-section {
+	display: grid;
+	justify-content: end;
+}
+
+.form-title {
+	color: rgba(255, 255, 255, 1);
+	font-size: 24px;
+	font-weight: lighter;
+	padding-bottom: 20px;
+}
+
+.input, .input-area {
+	border: none;
+	padding: 10px 10px;
+	border-radius: 5px;
+	background-color: rgba(104, 160, 151, 1);
+	color: rgba(117, 180, 170, 1);
+	font-size: 16px;
+}
+
+.input:focus, .input-area:focus {
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(114, 114, 114, 1);
+}
+
+.input {
+	width: 145px;
+}
+
+.input-area {
+	margin: 10px 0;
+	height: 120px;
+}
+
+.button {
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(223, 92, 100, 1);
+	color: rgba(255, 255, 255, 1);
+	font-size: 24px;
+	padding: 10px 0;
+	margin: 0 60px;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.social-footer {
+	position: absolute;
+	right: 0;
+  	bottom: 0;
+  	left: 0;
+	background-color: rgba(104, 160, 151, 1);
+	text-align: center;
+	padding: 1rem;
+}
+
+.footer-social-links {
+	padding: 0 15px;
+}
+
+.footer-social-links:hover {
+	opacity: .5;
+}

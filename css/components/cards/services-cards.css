@@ -1,0 +1,25 @@
+.services-cards-section {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 15px;
+	text-align: center;
+	margin: 5vh 15vw;
+}
+
+.services-card {
+	background-color: rgba(196, 81, 88, .7);
+	color: rgba(255, 255, 255, 1);
+	font-weight: lighter;
+	border-radius: 5px;
+	padding: 25px 20px;
+}
+
+.services-card-title {
+	text-transform: uppercase;
+	font-size: 24px;
+	padding: 15px 0;
+}
+
+.services-card-description {
+	font-size: 13px;
+}

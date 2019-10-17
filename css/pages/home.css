@@ -1,0 +1,25 @@
+.text-box {
+	display: grid;
+	grid-template-columns: 300px 300px;
+	grid-gap: 10px;
+	padding: 20px 115px 20px 30px;
+	background-color: rgba(255, 255, 255, 0.3);
+	color: rgba(116, 199, 213, 1);
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.brand-slogan {
+	font-size: 3rem;
+	font-weight: lighter;
+	text-align: right;
+}
+
+.first {
+	line-height: .9;
+	font-size: 7.5rem;
+	font-weight: bolder;
+}

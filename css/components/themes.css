@@ -1,0 +1,38 @@
+.home-page {
+	height: 100vh;
+	background-image: url(../../img/img1.png);
+	background-size: cover;
+	background-position: top;
+}
+
+.services-page {
+	height: 100%;
+	background-color: rgba(178, 74, 80, 1);
+	background-image: url(../../img/wave-red.png);
+	background-size: cover;
+	background-position: top;
+}
+
+.about-page {
+	height: 100%;
+	background-color: rgba(102, 84, 100, 1);
+	background-image: url(../../img/wave-purple.png);
+	background-size: cover;
+	background-position: top;
+}
+
+.work-page {
+	height: 100%;
+	background-color: rgba(129, 162, 86, 1);
+	background-image: url(../../img/wave-green.png);
+	background-size: cover;
+	background-position: top;
+}
+
+.contact-page {
+	height: 100%;
+	background-color: rgba(117, 180, 170, 1);
+	background-image: url(../../img/wave-blue.png);
+	background-size: cover;
+	background-position: top;
+}

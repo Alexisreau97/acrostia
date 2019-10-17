@@ -1,0 +1,29 @@
+.text-section {
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	padding: 7vh 15vw;
+}
+
+.title {
+	font-size: 3em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+.description {
+	font-size: 1em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+.subdescription {
+	font-size: .8em;
+	font-weight: lighter;
+	opacity: .7;
+}
+
+.text-opac {
+	opacity: .7;
+}
